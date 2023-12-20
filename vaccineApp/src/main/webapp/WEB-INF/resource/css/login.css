@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  width:100%;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+  height: 30px;
+  width: 100%;
+}
+
+form {
+  flex: 1; /* Take remaining vertical space */
+  width: 80%; /* Adjust the width as needed */
+  margin-top:30px; /* Center the form horizontally */
+  margin-bottom: 100px;
+  margin-left:90px;
+  height:-40px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input {
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+main {
+    flex: 1;
+    /* This ensures that the main content area takes up remaining space */
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    /* This pushes the footer to the bottom */
+    width:100%;
+}
+

@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure at least 100% of the viewport height */
+}
+
+.header,
+.footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+}
+
+.header h3 {
+    margin: 0;
+}
+
+.header-buttons {
+    display: flex;
+    margin-left:810px;
+}
+
+.register-button{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+}
+
+.login-button{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    margin-left:5px;
+}
+
+
+.footer {
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+/* Add any other styles for your content as needed */
