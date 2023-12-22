@@ -20,7 +20,7 @@
 	<bean class="org.springframework.mail.javamail.JavaMailSenderImpl">
 		<property name="host" value="smtp.gmail.com"></property>
 		<property name="username" value="virtualmail129@gmail.com"></property>
-		<property name="password" value="cgwv iuqm infu smwb"></property>
+		<property name="password" value="**************"></property>
 		<property name="port" value="587"></property>
 		<property name="javaMailProperties">
 			<props>
